@@ -10,9 +10,9 @@ This is the public tracker for **[WristAssistant](https://apps.apple.com/us/app/
 
 Pick the form that fits — each one asks for the info needed to act on it:
 
-- 🐛 [**Bug report**](../../issues/new?template=bug_report.yml) — something is broken or behaving unexpectedly.
-- ✨ [**Feature request**](../../issues/new?template=feature_request.yml) — an idea for something WristAssistant should do.
-- 📝 [**General feedback**](../../issues/new?template=feedback.yml) — UX impressions, design thoughts, anything that doesn't fit the other two.
+- [**Bug report**](../../issues/new?template=bug_report.yml) — something is broken or behaving unexpectedly.
+- [**Feature request**](../../issues/new?template=feature_request.yml) — an idea for something WristAssistant should do.
+- [**General feedback**](../../issues/new?template=feedback.yml) — UX impressions, design thoughts, anything that doesn't fit the other two.
 
 ## Before you file
 
