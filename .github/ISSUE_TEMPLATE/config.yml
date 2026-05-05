@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/NylonDiamond/wristassistant-feedback/discussions
+    about: For open-ended questions or discussion, please use Discussions instead of an issue.
+  - name: Home Assistant integration repo
+    url: https://github.com/NylonDiamond/homeassistant-wrist-assistant
+    about: Bugs in the WristAssistant Home Assistant integration (HACS) can be filed here as well — when in doubt, file in this repo and we'll route it.

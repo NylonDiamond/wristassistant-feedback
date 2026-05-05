@@ -1,0 +1,78 @@
+name: Feature request
+description: Suggest a new feature or improvement for WristAssistant.
+title: "[Feature]: "
+labels: ["feature", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? Great. Lead with the *problem* — it's much easier to design a good solution when the underlying need is clear.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation or pain point. Don't jump straight to a solution.
+      placeholder: When I get home at night, I want to dim every downstairs light from my wrist without...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you imagine this working? Sketches, mockups, or descriptions of similar features in other apps are all welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches you thought about, or workarounds you currently use (e.g. a script, an automation, a Smart Page rule).
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where would this live?
+      multiple: true
+      options:
+        - Watch app — tile / page
+        - Watch app — quick action / radial menu
+        - Watch app — domain control view (lights, climate, media, etc.)
+        - Complication / Smart Stack / Watch Control Center
+        - Apple Watch Ultra Action Button
+        - iPhone page editor
+        - iPhone settings or onboarding
+        - Notifications
+        - Siri / Shortcuts / Assist
+        - Home Assistant integration (HACS)
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Which Home Assistant domain(s) does this involve?
+      description: Optional — only if your request is domain-specific.
+      multiple: true
+      options:
+        - Lights
+        - Switches / input booleans
+        - Locks
+        - Covers / valves
+        - Climate / fans / humidifiers / water heaters
+        - Media players / remotes
+        - Cameras
+        - Scenes / scripts / automations
+        - Sensors / binary sensors
+        - Alarm panels / sirens
+        - Vacuums / lawn mowers
+        - Selects / numbers / text / date-time helpers
+        - Notify / TTS / Assist
+        - Persons / device trackers / zones
+        - Calendars / weather / counters / timers / todo / updates
+        - Other / not domain-specific
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
