@@ -4,14 +4,8 @@ title: "[Feature]: "
 labels: ["feature", "needs-triage"]
 body:
   - type: textarea
-    id: problem
+    id: feature
     attributes:
-      label: What problem would this solve?
-    validations:
-      required: true
-  - type: textarea
-    id: proposal
-    attributes:
-      label: Proposed solution
+      label: What feature would you like?
     validations:
       required: true
