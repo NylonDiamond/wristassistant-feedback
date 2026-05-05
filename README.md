@@ -8,9 +8,9 @@ The app's source is private; this repo exists so users have a single place to fi
 
 Pick the form that fits — each one asks for the info needed to act on it:
 
-- 🐛 [**Bug report**](../../issues/new?template=bug_report.yml) — something is broken or behaving unexpectedly.
-- ✨ [**Feature request**](../../issues/new?template=feature_request.yml) — an idea for something WristAssistant should do.
-- 💬 [**General feedback**](../../issues/new?template=feedback.yml) — UX impressions, design thoughts, anything that doesn't fit the other two.
+- [**Bug report**](../../issues/new?template=bug_report.yml) — something is broken or behaving unexpectedly.
+- [**Feature request**](../../issues/new?template=feature_request.yml) — an idea for something WristAssistant should do.
+- [**General feedback**](../../issues/new?template=feedback.yml) — UX impressions, design thoughts, anything that doesn't fit the other two.
 
 For open-ended questions, please use [Discussions](../../discussions) instead of opening an issue.
 
@@ -19,7 +19,6 @@ For open-ended questions, please use [Discussions](../../discussions) instead of
 ## Before you file
 
 - **Search [open](../../issues) and [closed](../../issues?q=is%3Aissue+is%3Aclosed) issues first** — your bug or idea may already be tracked.
-- For bugs, the most useful info is your **WristAssistant version**, **Home Assistant version**, **integration version**, and **watchOS / iOS versions**. The bug template asks for all of these.
 - A short screen recording is worth a thousand words.
 
 ## Requirements (for context)

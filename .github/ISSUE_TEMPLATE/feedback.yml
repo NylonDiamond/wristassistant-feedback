@@ -3,30 +3,9 @@ description: Share thoughts that aren't a bug or a specific feature request.
 title: "[Feedback]: "
 labels: ["feedback", "needs-triage"]
 body:
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category
-      options:
-        - Usability / UX
-        - Performance / battery
-        - Design / visuals
-        - Onboarding (sign-in, integration setup, first page)
-        - Page editor experience
-        - Premium / pricing
-        - Documentation
-        - Other
-    validations:
-      required: true
   - type: textarea
     id: feedback
     attributes:
       label: Your feedback
-      description: Be as specific as you can. Concrete examples beat general impressions.
     validations:
       required: true
-  - type: textarea
-    id: context
-    attributes:
-      label: Context
-      description: Anything about your Home Assistant setup or how you use WristAssistant that helps interpret the feedback (room layout, device count, what you use the watch for most, etc.).

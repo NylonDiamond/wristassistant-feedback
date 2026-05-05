@@ -3,99 +3,15 @@ description: Something is broken or behaving unexpectedly in WristAssistant.
 title: "[Bug]: "
 labels: ["bug", "needs-triage"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to file a bug. The more detail you give, the faster it can be fixed.
-
-        **Before filing:** please search [open](https://github.com/NylonDiamond/wristassistant-feedback/issues) and [closed](https://github.com/NylonDiamond/wristassistant-feedback/issues?q=is%3Aissue+is%3Aclosed) issues for duplicates.
   - type: textarea
-    id: what-happened
+    id: issue
     attributes:
-      label: What happened?
-      description: A clear description of the bug.
-      placeholder: When I tap a light tile on my watch, the state flips back after a second...
+      label: What's the issue?
+      description: Describe what's happening.
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: attachments
     attributes:
-      label: What did you expect to happen?
-      placeholder: The light should stay on and the tile should reflect the new state.
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: Numbered steps so someone else can hit the same issue.
-      placeholder: |
-        1. Open WristAssistant on the watch
-        2. Tap the "Living Room Lamp" tile on Page 1
-        3. ...
-    validations:
-      required: true
-  - type: dropdown
-    id: where
-    attributes:
-      label: Where does the bug happen?
-      multiple: true
-      options:
-        - Watch app
-        - iPhone companion app (page editor, settings, etc.)
-        - Complications / Smart Stack / widgets
-        - Notifications
-        - Siri / Shortcuts / Action Button
-        - Home Assistant integration (HACS)
-    validations:
-      required: true
-  - type: input
-    id: app-version
-    attributes:
-      label: WristAssistant version
-      description: Find this in the iPhone app's Settings screen.
-      placeholder: "e.g. 1.4.2 (build 87)"
-    validations:
-      required: true
-  - type: input
-    id: integration-version
-    attributes:
-      label: WristAssistant Home Assistant integration version
-      description: From HACS, or the integration's `manifest.json`. Leave blank if you don't have the integration installed.
-      placeholder: "e.g. 0.5.1"
-  - type: input
-    id: ha-version
-    attributes:
-      label: Home Assistant version
-      description: Settings → About in Home Assistant.
-      placeholder: "e.g. 2025.4.3 (Home Assistant OS)"
-    validations:
-      required: true
-  - type: input
-    id: watch-os
-    attributes:
-      label: watchOS version and Apple Watch model
-      placeholder: "e.g. watchOS 11.4, Apple Watch Ultra 2"
-    validations:
-      required: true
-  - type: input
-    id: ios
-    attributes:
-      label: iOS version and iPhone model
-      placeholder: "e.g. iOS 18.4, iPhone 15 Pro"
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs, screenshots, or screen recording
-      description: |
-        Drag files in to attach. A short screen recording of the bug in action is usually the most useful thing.
-        Crash logs live in iPhone Settings → Privacy & Security → Analytics & Improvements → Analytics Data (filter for "WristAssistant").
-  - type: checkboxes
-    id: searched
-    attributes:
-      label: Confirmation
-      options:
-        - label: I searched existing issues and didn't find a duplicate.
-          required: true
+      label: Logs, screenshots, or screen recordings
+      description: Drag files in to attach.
