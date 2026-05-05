@@ -25,3 +25,12 @@ Pick the form that fits — each one asks for the info needed to act on it:
 - Apple Watch running **watchOS 11.0+**
 - A working Home Assistant instance
 - The WristAssistant Home Assistant integration installed (via HACS or manually)
+
+## A look at the app
+
+<p align="center">
+  <img src="assets/01-hero.png" width="200" alt="Your home on your wrist — control Home Assistant from your watch">
+  <img src="assets/02-entities.png" width="200" alt="50+ Home Assistant entity types supported">
+  <img src="assets/03-customization.png" width="200" alt="Endless customization in the iPhone editor">
+  <img src="assets/04-features.png" width="200" alt="Quick menus, complications, voice, and more">
+</p>
