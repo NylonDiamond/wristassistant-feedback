@@ -5,6 +5,8 @@ This is the public tracker for **[WristAssistant](https://apps.apple.com/us/app/
 > ### 💬 [Join the Discussions →](../../discussions)
 >
 > The best place to ask questions, share your watch pages, swap tile ideas, and chat with other WristAssistant users. Start here if you're not sure whether something is a bug.
+>
+> Prefer chat? **[Join the Discord →](https://discord.gg/fTfVcWawQ)**
 
 ## File an issue
 
