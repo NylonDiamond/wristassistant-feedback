@@ -2,11 +2,9 @@
 
 This is the public tracker for **[WristAssistant](https://apps.apple.com/us/app/wrist-assistant/id6759152098)** — a Home Assistant companion for Apple Watch and iPhone. Use this repo to report bugs, request features, and share feedback.
 
-> ### 💬 [Join the Discussions →](../../discussions)
+> ### 💬 [Join the Discord →](https://discord.gg/6zmNK2jA5P)
 >
 > The best place to ask questions, share your watch pages, swap tile ideas, and chat with other WristAssistant users. Start here if you're not sure whether something is a bug.
->
-> Prefer chat? **[Join the Discord →](https://discord.gg/6zmNK2jA5P)**
 
 ## File an issue
 
