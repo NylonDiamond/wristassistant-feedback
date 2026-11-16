@@ -1,5 +1,5 @@
 name: Bug report
-description: Something is broken or behaving unexpectedly in WristAssistant.
+description: Something is broken or behaving unexpectedly in HouseLit.
 title: "[Bug]: "
 labels: ["bug", "needs-triage"]
 body:
